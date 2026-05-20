@@ -1,0 +1,17 @@
+{
+  "name": "team-task-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Full-stack Team Task Manager application.",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "start:backend": "npm --prefix backend start",
+    "lint:backend": "npm --prefix backend run lint",
+    "lint:frontend": "npm --prefix frontend run lint"
+  }
+}
